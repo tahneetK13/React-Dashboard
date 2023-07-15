@@ -1,7 +1,7 @@
 import React from 'react';
 import { MdOutlineCancel } from 'react-icons/md';
 
-import { Button } from '.';
+import Button from './Button'; // Import Button component from the correct file location
 import { userProfileData } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
 import kanwal from '../data/kanwal.jpg';
@@ -61,7 +61,6 @@ const UserProfile = () => {
         />
       </div>
     </div>
-
   );
 };
 
