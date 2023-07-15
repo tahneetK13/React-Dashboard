@@ -45,7 +45,7 @@ const Navbar = () => {
 
     handleResize();
 
-    return () => window.removeEventListener('resize, handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   useEffect(() => {
